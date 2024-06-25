@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ivy-module version="1.0">
+    <info organisation="io.github.pantherdd" module="datetime" revision="1.2.3" status="release">
+    </info>
+    <configurations>
+        <conf name="format"/>
+        <conf name="current" extends="format"/>
+        <conf name="sources"/>
+    </configurations>
+    <publications>
+        <artifact name="datetime-format" ext="jar" type="jar" conf="format"/>
+        <artifact name="datetime-format" ext="src.jar" type="source" conf="sources"/>
+        <artifact name="datetime-current" ext="jar" type="jar" conf="current"/>
+        <artifact name="datetime-current" ext="src.jar" type="source" conf="sources"/>
+    </publications>
+</ivy-module>
